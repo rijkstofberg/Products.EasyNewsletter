@@ -159,7 +159,7 @@ img.tileImage {
       </td>
     </tr>
     <tr>
-      <td class="body">
+      <td class="body" id="content-core">
         <!-- this is the main text of the newsletter -->
         <div class="mailonly">
           <p><span tal:replace="structure context/Description" /></p>

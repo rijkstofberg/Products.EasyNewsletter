@@ -51,7 +51,7 @@
                There are no issues.
              </div>
 
-              <ul>
+              <ul id="content-core">
                 <li tal:repeat="newsletter newsletters">
                     <a tal:define="toLocalizedTime nocall:context/@@plone/toLocalizedTime;
                                    date python:toLocalizedTime(newsletter.modified, long_format=0)"
